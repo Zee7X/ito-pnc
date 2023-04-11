@@ -204,7 +204,7 @@ class _DetailPageState extends State<DetailPage> {
                                 fontWeight: FontWeight.w400,
                                 color: Colors.black45,
                               ),
-                              textAlign: TextAlign.justify,
+                              textAlign: TextAlign.left,
                             ),
                       const SizedBox(
                         height: 30,
@@ -223,9 +223,10 @@ class _DetailPageState extends State<DetailPage> {
                                   ),
                                 ),
                                 const SizedBox(
-                                  height: 30,
+                                  height: 20,
                                 ),
                                 Text(
+                                  textAlign: TextAlign.left,
                                   dataSource.kompLulusan!,
                                   style: GoogleFonts.poppins(
                                     fontSize: 14,

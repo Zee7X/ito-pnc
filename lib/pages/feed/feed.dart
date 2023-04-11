@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:webfeed/webfeed.dart';
 import 'package:http/http.dart' as http;
 import 'package:xml2json/xml2json.dart';
@@ -20,7 +21,7 @@ class _NewsFeedState extends State<NewsFeed> {
   final Xml2Json xml2json = Xml2Json();
   List topnewsFeed = [];
   Future newsFeed() async {
-    final url = Uri.parse('https://rss.app/feeds/I4RQNUJAeQ8A8Ig4.xml');
+    final url = Uri.parse('https://rss.app/feeds/Tn3gbqyTH3hPwwiK.xml');
     final response = await http.get(url);
     xml2json.parse(response.body.toString());
     var jsondata = xml2json.toGData();
@@ -61,6 +62,7 @@ class _NewsFeedState extends State<NewsFeed> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      const SizedBox(height: 20),
                       ListView.builder(
                           shrinkWrap: true,
                           physics: const NeverScrollableScrollPhysics(),
@@ -108,28 +110,43 @@ class _NewsFeedState extends State<NewsFeed> {
                                 child: SizedBox(
                                   child: Row(
                                     children: [
-                                      Container(
-                                        width:
-                                            MediaQuery.of(context).size.height /
-                                                8.12,
-                                        height:
-                                            MediaQuery.of(context).size.height /
-                                                8.12,
-                                        decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(20),
-                                          color: Colors.white38,
-                                          image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                            image: NetworkImage(
-                                              newsImg == null
-                                                  ? const SizedBox()
-                                                  : topnewsFeed[index]
-                                                      ['media\$content']['url'],
+                                      newsImg == null
+                                          ? SizedBox(
+                                              child: Lottie.asset(
+                                                'assets/images/empty.json',
+                                                width: MediaQuery.of(context)
+                                                        .size
+                                                        .height /
+                                                    10,
+                                                height: MediaQuery.of(context)
+                                                        .size
+                                                        .height /
+                                                    8.12,
+                                              ),
+                                            )
+                                          : Container(
+                                              width: MediaQuery.of(context)
+                                                      .size
+                                                      .height /
+                                                  8.12,
+                                              height: MediaQuery.of(context)
+                                                      .size
+                                                      .height /
+                                                  8.12,
+                                              decoration: BoxDecoration(
+                                                borderRadius:
+                                                    BorderRadius.circular(20),
+                                                color: Colors.white38,
+                                                image: DecorationImage(
+                                                  fit: BoxFit.cover,
+                                                  image: NetworkImage(
+                                                    topnewsFeed[index]
+                                                            ['media\$content']
+                                                        ['url'],
+                                                  ),
+                                                ),
+                                              ),
                                             ),
-                                          ),
-                                        ),
-                                      ),
                                       Expanded(
                                         child: SizedBox(
                                           child: Padding(

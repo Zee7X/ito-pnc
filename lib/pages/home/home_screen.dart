@@ -2,6 +2,7 @@ import 'package:app_itopnc/database/data.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lottie/lottie.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../utils/const/imglist.dart';
@@ -21,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final Uri whatsapp = Uri.parse('https://wa.me/+6281225259195');
     final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Colors.white,
@@ -114,6 +116,16 @@ class _HomeScreenState extends State<HomeScreen> {
               )
             ],
           ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          launchUrl(whatsapp, mode: LaunchMode.externalNonBrowserApplication);
+        },
+        backgroundColor: const Color(0XFF22c15e),
+        child: Lottie.asset(
+          'assets/images/wa.json',
+          width: 40,
         ),
       ),
     );

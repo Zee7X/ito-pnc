@@ -95,7 +95,7 @@ List<Databases> databaseContent = [
     imageDetail: 'assets/detail/ti_bg.png',
     title: 'Teknik Informatika',
     titleD: 'Teknik Informatika',
-    italicTitle: 'Informatic Engginering',
+    italicTitle: 'Informatic Engineering',
     desc:
         'Teknik Informatika merupakan program studi yang mengkhususkan pada pengembangan aplikasi software dan hardware untuk tujuan tertentu. Lulusan memiliki keterampilan yang baik di bidang pemrograman dan jaringan serta kemampuan tambahan di bidang multimedia.',
     imgFasilitas1: 'assets/detail/laborat.png',
@@ -117,7 +117,7 @@ List<Databases> databaseContent = [
 
     //Prodi 2
     cateProdi2: 'Prodi 2',
-    logoProdi2: 'assets/logo/ti.png',
+    logoProdi2: 'assets/logo/rks.png',
     imgProdi2: 'assets/detail/cyber.png',
     namaP2: 'D4 Rekayasa Keamanan Siber',
     namaProdi2: 'Prodi D4 Rekayasa Keamanan Siber',
@@ -131,7 +131,7 @@ List<Databases> databaseContent = [
 
     //Prodi 3
     cateProdi3: 'Prodi 3',
-    logoProdi3: 'assets/logo/ti.png',
+    logoProdi3: 'assets/logo/mm.png',
     imgProdi3: 'assets/detail/cyber.png',
     namaP3: 'D4 Teknologi Rekayasa Multimedia',
     namaProdi3: 'Prodi D4 Teknologi Rekayasa Multimedia',
@@ -147,7 +147,7 @@ List<Databases> databaseContent = [
   Databases(
     cate: 'Program Studi',
     image: 'assets/logo/tm.png',
-    imageDetail: 'assets/detail/ti_bg.png',
+    imageDetail: 'assets/detail/mesin3.jpg',
     title: 'Teknik Mesin',
     titleD: 'Teknik Mesin',
     italicTitle: 'Mechanical Engineering',
@@ -164,7 +164,7 @@ List<Databases> databaseContent = [
   Databases(
     cate: 'Jurusan',
     image: 'assets/logo/te.png',
-    imageDetail: 'assets/detail/ti_bg.png',
+    imageDetail: 'assets/detail/elektro.jpg',
     title: 'Teknik Elektro',
     titleD: 'Teknik Elektro',
     italicTitle: 'Electrical Engineering',
@@ -189,7 +189,7 @@ List<Databases> databaseContent = [
 
     //Prodi 2
     cateProdi2: 'Prodi 2',
-    logoProdi2: 'assets/logo/tl.png',
+    logoProdi2: 'assets/logo/tppl.png',
     imgProdi2: 'assets/detail/cyber.png',
     namaP2: 'D3 Teknik Listrik',
     namaProdi2: 'Prodi D3 Teknik Listrik',
@@ -203,7 +203,7 @@ List<Databases> databaseContent = [
 
     //Prodi 3
     cateProdi3: 'Prodi 3',
-    logoProdi3: 'assets/logo/te.png',
+    logoProdi3: 'assets/logo/meka.png',
     imgProdi3: 'assets/detail/cyber.png',
     namaP3: 'D4 Teknologi Rekayasa\nMekatronika',
     namaProdi3: 'Prodi D4 Teknologi Rekayasa Mekatronika',
@@ -218,49 +218,49 @@ List<Databases> databaseContent = [
   //TPPL
   Databases(
     cate: 'Program Studi',
-    image: 'assets/logo/tppl.png',
-    imageDetail: 'assets/detail/ti_bg.png',
-    title: 'TPPL',
-    titleD: 'Teknik Pengendalian Pencemaran Lingkungan',
-    italicTitle: 'Environmental Pollution Control Techniques',
+    image: 'assets/logo/tl.png',
+    imageDetail: 'assets/detail/tppl4.jpg',
+    title: 'Prodi TPPL',
+    titleD: 'D4 Teknik Pengendalian Pencemaran Lingkungan',
+    italicTitle: 'D4 Environmental Pollution Control Techniques',
     desc:
-        'Teknik Pengendalian Pencemaran Lingkungan merupakan program studi yang mempelajari tentang pengendalian pencemaran lingkungan, pemantauan kualitas lingkungan, hingga teknologi pengolahan limbah. Program Studi ini difokuskan pada pendekatan praktis dan solusi teknis untuk mengatasi masalah lingkungan seperti pengendalian polusi air, udara, dan tanah sesuai dengan regulasi yang berlaku',
+        'Sarjana Terapan Teknik Pengendalian Pencemaran Lingkungan adalah program studi yang mempelajari permasalahan lingkungan dan solusinya seperti pengelolaan lingkungan, pengendalian pencemaran akibat limbah dan lainnya.',
     kompLulusan:
-        'Setiap lulusan Prodi D3 Teknik Informatika memiliki kompetensi : \n\n1. Mampu membuat suatu aplikasi perangkat lunak.\n2. Mampu membuat aplikasi berbasis mobile.\n3. Mampu melakukan perakitan, perawatan dan perbaikan komputer.\n4. Mampu mendesain, membangun, menginstalasi serta troubleshooting jaringan.\n5. Mampu membuat dan menjalankan administrasi sebuah website.\n6. Mampu mendesain sebuah website.\n7. Mampu membuat animasi 2 dimensi dan desain gambar.',
+        'Setiap lulusan Prodi D4 Teknik Pengendalian Pencemaran Lingkungan memiliki kompetensi : \n\n1. Mampu mengatasi permasalahan lingkungan dan solusinya. \n2. Mampu mengendalikan lingkungan akibat limbah.',
     peluangKLulusan:
-        'Lulusan Program Studi Teknik Informatika, telah berhasil terserap di dunia usaha dan industri, diantaranya perusahaan IT, BUMN, perusahaan pertambangan, perusahaan manufaktur, perbankan, Pegawai Negeri Sipil, dan wirausaha. Setelah mengikuti perkuliahan selama 6 semester, maka diharapkan para lulusan akan dapat menepati posisi kerja sebagai berikut: \n\n1. Supervisor Database Programmer.\n2. Junior Web Programmer.\n3. Junior Network Administrator.\n4. Front End Developer.\n5. Android Developer.\n6. Fullstack Developer.',
+        '1. Ahli Bioteknologi. \n2. Teknisi Konservasi Lingkungan.',
     imgFasilitas1: 'assets/detail/laborat.png',
     imgFasilitas2: 'assets/detail/laborat.png',
   ),
   Databases(
     cate: 'Program Studi',
     image: 'assets/logo/ppa.png',
-    imageDetail: 'assets/detail/ti_bg.png',
-    title: 'PPA',
-    titleD: 'Pengembangan Produk Agroindustri',
-    italicTitle: 'Development of Agroindustry Products',
+    imageDetail: 'assets/detail/agroindustri4.png',
+    title: 'Prodi PPA',
+    titleD: 'D4 Pengembangan Produk Agroindustri',
+    italicTitle: 'D4 Development of Agroindustry Products',
     desc:
-        'Pengembangan Produk Agroindustri merupakan program studi yang mempelajari mengenai pengembangan teknologi di bidang pertanian serta implementasinya untuk menunjang kemajuan industri pertanian. Program studi ini juga mempelajari mengenai metode dan pengolahan hasil pertanian agar dapat menghasilkan produk yang berkualitas dan memenuhi standar produksi',
+        'Program studi pengembangan produk Agroindustri adalah program unggulan dalam pengkajian dan penerapan ilmu pengetahuan dan teknologi yang berbasis potensi daerah yang  bertujuan menghasilkan lulusan yang mampu menguasai prinsip ilmu pangan, memiliki ketrampilan dalam perancangan dan pengembangan produk agroindustri serta menghasilkan lulusan yang professional, komunikatif dan inovatif.',
     kompLulusan:
-        'Setiap lulusan Prodi D3 Teknik Informatika memiliki kompetensi : \n\n1. Mampu membuat suatu aplikasi perangkat lunak.\n2. Mampu membuat aplikasi berbasis mobile.\n3. Mampu melakukan perakitan, perawatan dan perbaikan komputer.\n4. Mampu mendesain, membangun, menginstalasi serta troubleshooting jaringan.\n5. Mampu membuat dan menjalankan administrasi sebuah website.\n6. Mampu mendesain sebuah website.\n7. Mampu membuat animasi 2 dimensi dan desain gambar.',
+        'Setiap lulusan Prodi D4 Pengembangan Produk Agroindustri memiliki kompetensi : \n\n1. Mampu mengembangkan produk agroindustri.\n2. Mampu mengkaji dan menerapkan ilmu pengetahuan dan teknologi berbasis potensi daerah. \n3. Mampu menguasai ilmu pangan.',
     peluangKLulusan:
-        'Lulusan Program Studi Teknik Informatika, telah berhasil terserap di dunia usaha dan industri, diantaranya perusahaan IT, BUMN, perusahaan pertambangan, perusahaan manufaktur, perbankan, Pegawai Negeri Sipil, dan wirausaha. Setelah mengikuti perkuliahan selama 6 semester, maka diharapkan para lulusan akan dapat menepati posisi kerja sebagai berikut: \n\n1. Supervisor Database Programmer.\n2. Junior Web Programmer.\n3. Junior Network Administrator.\n4. Front End Developer.\n5. Android Developer.\n6. Fullstack Developer.',
+        '1. Supervisor Jaminan Mutu Pangan. \n2. Konsultan Produk Pangan. \n3. Quality Control Produk Pangan. \n4. Agropreneur.',
     imgFasilitas1: 'assets/detail/laborat.png',
     imgFasilitas2: 'assets/detail/laborat.png',
   ),
   Databases(
     cate: 'Program Studi',
-    image: 'assets/logo/tl.png',
-    imageDetail: 'assets/detail/ti_bg.png',
-    title: 'ALKS',
-    titleD: 'Akuntansi Lembaga Keuangan Syariah',
-    italicTitle: 'Accounting For Islamic Financial Institutionss',
+    image: 'assets/logo/alks.png',
+    imageDetail: 'assets/detail/alks4.jpg',
+    title: 'Prodi ALKS',
+    titleD: 'Prodi D4 Akuntansi Lembaga Keuangan Syariah',
+    italicTitle: 'D4 Accounting For Islamic Financial Institutions',
     desc:
         'Akuntansi Lembaga Keuangan Syariah merupakan program studi yang mempelajari ilmu akuntansi yang berdasarkan nilai-nilai universal agama Islam sehingga mahasiswa diarahkan untuk dapat menjadi analis pembiayaan syariah, konsultan keuangan syariah, auditor lembaga keuangan syariah',
     kompLulusan:
-        'Setiap lulusan Prodi D3 Teknik Informatika memiliki kompetensi : \n\n1. Mampu membuat suatu aplikasi perangkat lunak.\n2. Mampu membuat aplikasi berbasis mobile.\n3. Mampu melakukan perakitan, perawatan dan perbaikan komputer.\n4. Mampu mendesain, membangun, menginstalasi serta troubleshooting jaringan.\n5. Mampu membuat dan menjalankan administrasi sebuah website.\n6. Mampu mendesain sebuah website.\n7. Mampu membuat animasi 2 dimensi dan desain gambar.',
+        'Setiap lulusan Prodi D4 Akuntansi Lembaga Keuangan Syariah memiliki kompetensi : \n\n1.	Mampu menyiapkan laporan keuangan lembaga sesuai standar akuntansi dan laporan lain sesuai regulator. \n2.	Mampu menyediakan laporan finansial dan non finansial untuk keperluan internal lembaga. \n3.	Mampu menjadi analis yang mengukur aspek penting dari calon nasabah pembiayaan untuk mengetahui kelayakan calon nasabah. \n4.	Mampu mengelola dana dalam operasional lembaga keuangan syariah. \n5.	Mampu menjadi amil zakat, infak dan sedekah di lembaga zakat serta ndhir wakaf profesional. \n6.	Mampu menjadi auditor eksternal bagi lembaga keuangan syariah yang memberikan jasa reviu maupun audit keuangan kepada klien. \n7.	Mampu menjadi auditor internal untuk memastikan berjalannya sistem pengawasan dalam internal lembaga.',
     peluangKLulusan:
-        'Lulusan Program Studi Teknik Informatika, telah berhasil terserap di dunia usaha dan industri, diantaranya perusahaan IT, BUMN, perusahaan pertambangan, perusahaan manufaktur, perbankan, Pegawai Negeri Sipil, dan wirausaha. Setelah mengikuti perkuliahan selama 6 semester, maka diharapkan para lulusan akan dapat menepati posisi kerja sebagai berikut: \n\n1. Supervisor Database Programmer.\n2. Junior Web Programmer.\n3. Junior Network Administrator.\n4. Front End Developer.\n5. Android Developer.\n6. Fullstack Developer.',
+        '1. Akuntan Profesional Pada Lembaga Keuangan Syariah. \n2. Analis Pembiayaan Syariah. \n3. Pengelola Tresuri Pada Lembaga Keuangan Syariah. \n4. Pengelola Lembaga Filantropi Islam. \n5. Konsultan Keuangan Syariah. \n6. Auditor Lembaga Keuangan Syariah.',
     imgFasilitas1: 'assets/detail/laborat.png',
     imgFasilitas2: 'assets/detail/laborat.png',
   ),
