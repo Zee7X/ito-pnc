@@ -1,4 +1,4 @@
-package com.example.app_itopnc
+package com.pnc.itoapp
 
 import io.flutter.embedding.android.FlutterActivity
 

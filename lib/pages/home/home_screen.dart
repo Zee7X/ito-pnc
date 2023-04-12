@@ -120,7 +120,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
-          launchUrl(whatsapp, mode: LaunchMode.externalNonBrowserApplication);
+          launchUrl(
+            whatsapp,
+            mode: LaunchMode.externalNonBrowserApplication,
+          );
         },
         backgroundColor: const Color(0XFF22c15e),
         child: Lottie.asset(

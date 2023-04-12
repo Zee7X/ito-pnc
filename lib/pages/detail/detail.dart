@@ -1,10 +1,6 @@
 import 'package:app_itopnc/pages/prodi/prodi.dart';
 import 'package:flutter/material.dart';
-
-import 'package:full_screen_image/full_screen_image.dart';
-
 import 'package:google_fonts/google_fonts.dart';
-
 import '../../database/data.dart';
 import '../../utils/widgets/prodi_column.dart';
 import '../../utils/widgets/text_poppins_w.dart';
@@ -83,7 +79,9 @@ class _DetailPageState extends State<DetailPage> {
                     children: [
                       TextPoppinsW(
                         colorw: const Color(0XFF5E6A81),
-                        text: dataSource.titleD!,
+                        text: dataSource.cate == "Jurusan"
+                            ? 'Jurusan ${dataSource.titleD!}'
+                            : 'Program Studi ${dataSource.titleD!}',
                         fSize: 20,
                         fWeight: FontWeight.w700,
                       ),
@@ -115,7 +113,7 @@ class _DetailPageState extends State<DetailPage> {
                           color: const Color(0XFF5E6A81),
                         ),
                       ),
-                      const SizedBox(height: 20),
+                      const SizedBox(height: 5),
                       dataSource.cate == 'Jurusan'
                           ? Column(
                               children: [
@@ -223,11 +221,11 @@ class _DetailPageState extends State<DetailPage> {
                                   ),
                                 ),
                                 const SizedBox(
-                                  height: 20,
+                                  height: 5,
                                 ),
                                 Text(
                                   textAlign: TextAlign.left,
-                                  dataSource.kompLulusan!,
+                                  dataSource.peluangKLulusan!,
                                   style: GoogleFonts.poppins(
                                     fontSize: 14,
                                     fontWeight: FontWeight.w400,
@@ -240,52 +238,48 @@ class _DetailPageState extends State<DetailPage> {
                               ],
                             ),
                       Text(
-                        'Fasilitas',
+                        dataSource.cate == "Jurusan"
+                            ? 'Fasilitas Jurusan'
+                            : 'Fasilitas Program Studi',
                         style: GoogleFonts.poppins(
                           fontSize: 20,
                           fontWeight: FontWeight.w700,
                           color: const Color(0XFF5E6A81),
                         ),
                       ),
-                      const SizedBox(height: 20),
-                      SingleChildScrollView(
-                        scrollDirection: Axis.horizontal,
-                        child: Row(
-                          children: [
-                            FullScreenWidget(
-                              disposeLevel: DisposeLevel.High,
-                              child: Center(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(25)),
-                                  // height: 138,
-                                  // width: 220,
-                                  height: 280,
-                                  width: 330,
-                                  child: Image.asset(
-                                    dataSource.imgFasilitas1!,
-                                    fit: BoxFit.fill,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            const SizedBox(width: 20),
-                            FullScreenWidget(
-                              disposeLevel: DisposeLevel.High,
-                              child: Center(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(25)),
-                                  height: 280,
-                                  width: 330,
-                                  child: Image.asset(
-                                    dataSource.imgFasilitas2!,
-                                    fit: BoxFit.fill,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ],
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        textAlign: TextAlign.left,
+                        dataSource.fasilitas!,
+                        style: GoogleFonts.poppins(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black45,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 30,
+                      ),
+                      Text(
+                        'Fasilitas Umum',
+                        style: GoogleFonts.poppins(
+                          fontSize: 20,
+                          fontWeight: FontWeight.w700,
+                          color: const Color(0XFF5E6A81),
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        textAlign: TextAlign.left,
+                        '1. Auditorium PNC\n2. Ruang Kelas GKB\n3. Ruang Laboratorium GKB\n4. Ruang Serbaguna\n5. Roof Garder Gedung GKB\n6. Perpustakaan PNC',
+                        style: GoogleFonts.poppins(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black45,
                         ),
                       ),
                     ],
