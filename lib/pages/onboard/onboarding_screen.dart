@@ -19,7 +19,7 @@ class OnBoardingScreen1 extends StatefulWidget {
 }
 
 class _OnBoardingScreen1State extends State<OnBoardingScreen1> {
-    Future setSeenonboard() async {
+  Future setSeenonboard() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     seenOnBoard = await prefs.setBool('seenOnBoard', true);
   }
@@ -29,6 +29,7 @@ class _OnBoardingScreen1State extends State<OnBoardingScreen1> {
     super.initState();
     setSeenonboard();
   }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -127,7 +128,7 @@ class OnBoarding2 extends StatelessWidget {
             padding:
                 EdgeInsets.only(left: size.width / 11.3, right: size.width / 5),
             child: Text(
-              'Politeknik Cilacap merupakan salah satu perguruan tinggi negeri yang didirikan sejak tahun 2014. Sampai dengan saat ini Politeknik Negeri Cilacap (PNC) mengelola 3 Jurusan dan 6 Program Studi.',
+              'Politeknik Cilacap merupakan salah satu perguruan tinggi negeri yang didirikan sejak tahun 2014. Sampai dengan saat ini Politeknik Negeri Cilacap (PNC) mengelola 3 Jurusan dan 10 Program Studi.',
               textAlign: TextAlign.justify,
               style: GoogleFonts.poppins(
                 fontSize: 16,
@@ -286,7 +287,7 @@ class OnBoarding3 extends StatelessWidget {
                 padding: EdgeInsets.only(
                     left: size.width / 11.3, right: size.width / 7),
                 child: Text(
-                  '1. Menyelenggarakan Pendididikan Vokasi berbasis teknologi yang bermutu, bermoral dan berkeadilan sosial.\n2. Menyelenggarakan penelitian dasar dan / atau terapan, serta menyebarluaskan hasil penelitian.\n3. Menyelenggarakan penelitian dasar dan / atau terapan, serta menyebarluaskan hasil penelitian.\n4. Membentuk jiwa kewirausahaan berbasis teknologi atau (technopreneurship).',
+                  '1. Menyelenggarakan Pendididikan Vokasi berbasis teknologi yang bermutu, bermoral dan berkeadilan sosial.\n2. Menyelenggarakan penelitian dasar dan terapan, serta menyebarluaskan hasil penelitian.\n3. Menyelenggarakan penelitian dasar dan terapan, serta menyebarluaskan hasil penelitian.\n4. Membentuk jiwa kewirausahaan berbasis teknologi atau (technopreneurship).',
                   style: GoogleFonts.poppins(
                     fontSize: 16,
                     fontWeight: FontWeight.w400,

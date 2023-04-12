@@ -58,7 +58,7 @@ List<Databases> databaseContent = [
     desc:
         'Teknik Informatika merupakan program studi yang mengkhususkan pada pengembangan aplikasi software dan hardware untuk tujuan tertentu. Lulusan memiliki keterampilan yang baik di bidang pemrograman dan jaringan serta kemampuan tambahan di bidang multimedia.',
     fasilitas:
-        '1. Lab Jaringan.\n2. Lab Cisco.\n3. Lab Sistem Informasi.\n4. Lab Audio Visual.\n5. Lab Pemrograman',
+        '1. Lab Jaringan.\n2. Lab Cisco.\n3. Lab Sistem Informasi.\n4. Lab Audio Visual.\n5. Lab Pemrograman.',
 
     //Prodi 1
 
@@ -88,7 +88,7 @@ List<Databases> databaseContent = [
     kompLulusan:
         'Setiap lulusan Prodi D3 Teknik Mesin memiliki kompetensi : \n\n1.	Mampu menganalisis dan mengevaluasi mesin.\n2. Mampu mengoperasikan mesin dan membuat produk khusus.\n3.	Mampu menggunakan dan merancang produk industri pemesinan.\n4.	Mampu mengelola perbengkelan.\n5.	Mampu mengendalikan mutu produk pemesinan.',
     peluangKLulusan:
-        '1, Konsultan Mekanik.\n2. Teknisi Modeling/Drawing.\n3. Teknisi Pemeliharaan Mesin',
+        '1. Konsultan Mekanik.\n2. Teknisi Modeling/Drawing.\n3. Teknisi Pemeliharaan Mesin.',
     fasilitas:
         '1. Lab Pemesinan.\n2. Lab Uji Material.\n3. Tool Cribs.\n4. Lab Kerja Bangku.\n5. Lab Selasar Fabrikasi.\n6. Lab CAD/CAM.',
   ),
@@ -150,7 +150,7 @@ List<Databases> databaseContent = [
         'Setiap lulusan Prodi D4 Pengembangan Produk Agroindustri memiliki kompetensi : \n\n1. Mampu mengembangkan produk agroindustri.\n2. Mampu mengkaji dan menerapkan ilmu pengetahuan dan teknologi berbasis potensi daerah. \n3. Mampu menguasai ilmu pangan.',
     peluangKLulusan:
         '1. Supervisor Jaminan Mutu Pangan. \n2. Konsultan Produk Pangan. \n3. Quality Control Produk Pangan. \n4. Agropreneur.',
-    fasilitas: 'Lab Agroindustri',
+    fasilitas: 'Lab Agroindustri.',
   ),
   //ALKS
   Databases(
@@ -161,11 +161,11 @@ List<Databases> databaseContent = [
     titleD: 'D4 Akuntansi Lembaga Keuangan Syariah',
     italicTitle: 'D4 Accounting For Islamic Financial Institutions',
     desc:
-        'Akuntansi Lembaga Keuangan Syariah merupakan program studi yang mempelajari ilmu akuntansi yang berdasarkan nilai-nilai universal agama Islam sehingga mahasiswa diarahkan untuk dapat menjadi analis pembiayaan syariah, konsultan keuangan syariah, auditor lembaga keuangan syariah',
+        'Akuntansi Lembaga Keuangan Syariah merupakan program studi yang mempelajari ilmu akuntansi yang berdasarkan nilai-nilai universal agama Islam sehingga mahasiswa diarahkan untuk dapat menjadi analis pembiayaan syariah, konsultan keuangan syariah, auditor lembaga keuangan syariah.',
     kompLulusan:
         'Setiap lulusan Prodi D4 Akuntansi Lembaga Keuangan Syariah memiliki kompetensi : \n\n1.	Mampu menyiapkan laporan keuangan lembaga sesuai standar akuntansi dan laporan lain sesuai regulator. \n2.	Mampu menyediakan laporan finansial dan non finansial untuk keperluan internal lembaga. \n3.	Mampu menjadi analis yang mengukur aspek penting dari calon nasabah pembiayaan untuk mengetahui kelayakan calon nasabah. \n4.	Mampu mengelola dana dalam operasional lembaga keuangan syariah. \n5.	Mampu menjadi amil zakat, infak dan sedekah di lembaga zakat serta ndhir wakaf profesional. \n6.	Mampu menjadi auditor eksternal bagi lembaga keuangan syariah yang memberikan jasa reviu maupun audit keuangan kepada klien. \n7.	Mampu menjadi auditor internal untuk memastikan berjalannya sistem pengawasan dalam internal lembaga.',
     peluangKLulusan:
         '1. Akuntan Profesional Pada Lembaga Keuangan Syariah. \n2. Analis Pembiayaan Syariah. \n3. Pengelola Tresuri Pada Lembaga Keuangan Syariah. \n4. Pengelola Lembaga Filantropi Islam. \n5. Konsultan Keuangan Syariah. \n6. Auditor Lembaga Keuangan Syariah.',
-    fasilitas: 'Ruang',
+    fasilitas: 'Ruang ALKS.',
   ),
 ];

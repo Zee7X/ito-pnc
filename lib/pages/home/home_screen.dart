@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final Uri whatsapp = Uri.parse('https://wa.me/+6281225259195');
+    final Uri whatsapp = Uri.parse('https://wa.me/+6281128041000');
     final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Colors.white,

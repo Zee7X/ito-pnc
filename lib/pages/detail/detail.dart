@@ -79,7 +79,8 @@ class _DetailPageState extends State<DetailPage> {
                     children: [
                       TextPoppinsW(
                         colorw: const Color(0XFF5E6A81),
-                        text: dataSource.cate == "Jurusan"
+                        text: dataSource.cate == "Jurusan" ||
+                                dataSource.title == 'Teknik Mesin'
                             ? 'Jurusan ${dataSource.titleD!}'
                             : 'Program Studi ${dataSource.titleD!}',
                         fSize: 20,
@@ -238,7 +239,8 @@ class _DetailPageState extends State<DetailPage> {
                               ],
                             ),
                       Text(
-                        dataSource.cate == "Jurusan"
+                        dataSource.cate == "Jurusan" ||
+                                dataSource.title == 'Teknik Mesin'
                             ? 'Fasilitas Jurusan'
                             : 'Fasilitas Program Studi',
                         style: GoogleFonts.poppins(
@@ -275,7 +277,7 @@ class _DetailPageState extends State<DetailPage> {
                       ),
                       Text(
                         textAlign: TextAlign.left,
-                        '1. Auditorium PNC\n2. Ruang Kelas GKB\n3. Ruang Laboratorium GKB\n4. Ruang Serbaguna\n5. Roof Garder Gedung GKB\n6. Perpustakaan PNC',
+                        '1. Auditorium PNC.\n2. Ruang Kelas GKB.\n3. Ruang Laboratorium GKB.\n4. Ruang Serbaguna.\n5. Roof Garden Gedung GKB.\n6. Perpustakaan PNC.',
                         style: GoogleFonts.poppins(
                           fontSize: 14,
                           fontWeight: FontWeight.w400,

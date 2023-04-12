@@ -88,7 +88,7 @@ class _ProdiTiState extends State<ProdiTi> {
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        'Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika. Di Jurusan Teknik Informatika kamu akan mempelajari berbagai prinsip terkait ilmu komputer mulai dari proses perancangan, pengembangan, pengujian, hingga evaluasi sistem operasi perangkat lunak. Selama kuliah kamu akan banyak mengkaji pemrograman dan komputasi, dan dibekali pula dengan keterampilan merancang perangkat lunak.',
+                        'Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika. Di Program Studi Teknik Informatika kamu akan mempelajari berbagai prinsip terkait ilmu komputer mulai dari proses perancangan, pengembangan, pengujian, hingga evaluasi sistem operasi perangkat lunak. Selama kuliah kamu akan banyak mengkaji pemrograman dan komputasi, dan dibekali pula dengan keterampilan merancang perangkat lunak.',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -205,7 +205,7 @@ class _ProdiCyState extends State<ProdiCy> {
               ),
               child: FlexibleSpaceBar(
                 background: Image.asset(
-                  'assets/detail/prodi_ti.png',
+                  'assets/detail/siber4.png',
                   fit: BoxFit.cover,
                 ),
               ),
@@ -274,7 +274,7 @@ class _ProdiCyState extends State<ProdiCy> {
                       ),
                       const SizedBox(height: 5),
                       Text(
-                        '1. Cyber Security Analist \n2.	Cyber Security Incident Analyst \n3.	Network Security Administrator',
+                        '1. Cyber Security Analist. \n2.	Cyber Security Incident Analyst. \n3.	Network Security Administrator.',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -673,7 +673,7 @@ class _ProdiTLState extends State<ProdiTL> {
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        'Program Studi Teknik Listrik Politeknik Negeri Cilacap merupakan salah satu program studi di Jurusan Teknik Elektronika dengan program pendidikan selama 6 semester sehingga lulusan program studi teknik listrik berhak menyandang gelar Ahli Madya (A.Md T.). Lulusan Program Studi Teknik Listrik dapat memenuhi standar penilaian pasar kerja karena setelah menempuh pendidikan selama 6 (enam) semester di bidang teknik listrik, juga mampu mengaplikasikan komputer untuk sistem kendali listrik berbasis PLC secara terprogram, memahami penggunaan instrumen ukur kelistrikan untuk pengaturan dan monitoring proses di industri, berkomunikasi dalam bahasa Inggris, berwirausaha dan mengelola usaha pekerjaan jasa listrik. Setelah menyelesaikan pendidikan, lulusan Program Studi D3 Teknik Listrik mampu ditempatkan sebagai tenaga perancang, perencana, teknisi, penyelia (foreman), pengawas (supervisor), ahli teknik (engineer) listrik dan mampu berwirausaha serta bekerja hampir di seluruh sektor lapangan kerja. Lulusan Program Studi Teknik Listrik dapat juga melanjutkan studi ke strata 1 (S1) atau diploma IV (DIV) karena kurikulum yang dirancang juga diselaraskan dengan kurikulum ke jenjang yang lebih tinggi',
+                        'Program Studi Teknik Listrik Politeknik Negeri Cilacap merupakan salah satu program studi di Program Studi Teknik Elektronika dengan program pendidikan selama 6 semester sehingga lulusan program studi teknik listrik berhak menyandang gelar Ahli Madya (A.Md T.). Lulusan Program Studi Teknik Listrik dapat memenuhi standar penilaian pasar kerja karena setelah menempuh pendidikan selama 6 (enam) semester di bidang teknik listrik, juga mampu mengaplikasikan komputer untuk sistem kendali listrik berbasis PLC secara terprogram, memahami penggunaan instrumen ukur kelistrikan untuk pengaturan dan monitoring proses di industri, berkomunikasi dalam bahasa Inggris, berwirausaha dan mengelola usaha pekerjaan jasa listrik. Setelah menyelesaikan pendidikan, lulusan Program Studi D3 Teknik Listrik mampu ditempatkan sebagai tenaga perancang, perencana, teknisi, penyelia (foreman), pengawas (supervisor), ahli teknik (engineer) listrik dan mampu berwirausaha serta bekerja hampir di seluruh sektor lapangan kerja. Lulusan Program Studi Teknik Listrik dapat juga melanjutkan studi ke strata 1 (S1) atau diploma IV (DIV) karena kurikulum yang dirancang juga diselaraskan dengan kurikulum ke jenjang yang lebih tinggi',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -713,7 +713,7 @@ class _ProdiTLState extends State<ProdiTL> {
                       ),
                       const SizedBox(height: 5),
                       Text(
-                        '1. Teknisi \n2. Pengawas (Supervisor) \n3. Ahli Teknik Listrik',
+                        '1. Teknisi. \n2. Pengawas (Supervisor). \n3. Ahli Teknik Listrik.',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
@@ -819,7 +819,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                       ),
                       const SizedBox(height: 10),
                       Text(
-                        'Program studi teknologi rekayasa mekatronika hadir di saat persaingan era globalisasi dan revolusi industri 4.0. Mekatronika merupakan ilmu yang mengkombinasikan secara sinergis rekayasa mekanika, elektronika, dan kontrol. Pada awal perkembangannya, mekatronika hanya mencakup unsur mekanika dan elektronika saja. Dengan ditemukannya mikroprosesor pada tahun 1980an, keilmuan mekatronika menjadi lebih maju dan berkembang. Mekatronika kemudian didukung oleh disiplin ilmu lain diantaranya: embedded system yang memberikan nuansa hardware programming yang menghubungkan mekanik dan elektronik, juga control system yang memberikan kecerdasan buatan kepada sistem tersebut.\nProdi STTRM mempelajari mengenai beberapa cabang ilmu keteknikan, seperti teknik mesin/mekanik, teknik kendali, teknik elektro, dan ilmu komputasi (computer science, software, and hardware). Mahasiswa jurusan ini akan belajar tentang ilmu keteknikan dasar dan beberapa matakuliah lanjutan seperti Sistem Mikroprosesor, kendali otomatis, CNC, Pneumatik dan Hidrolik, Robotika, otomasi industri, dan kendali cerdas. Tujuan dari ilmu mekatronika ini adalah menghasilkan suatu produk otomasi yang cerdas dengan kinerja yang optimal dan efisien.',
+                        'Program studi teknologi rekayasa mekatronika hadir di saat persaingan era globalisasi dan revolusi industri 4.0. Mekatronika merupakan ilmu yang mengkombinasikan secara sinergis rekayasa mekanika, elektronika, dan kontrol. Pada awal perkembangannya, mekatronika hanya mencakup unsur mekanika dan elektronika saja. Dengan ditemukannya mikroprosesor pada tahun 1980an, keilmuan mekatronika menjadi lebih maju dan berkembang. Mekatronika kemudian didukung oleh disiplin ilmu lain diantaranya: embedded system yang memberikan nuansa hardware programming yang menghubungkan mekanik dan elektronik, juga control system yang memberikan kecerdasan buatan kepada sistem tersebut.\nProdi STTRM mempelajari mengenai beberapa cabang ilmu keteknikan, seperti teknik mesin/mekanik, teknik kendali, teknik elektro, dan ilmu komputasi (computer science, software, and hardware). Mahasiswa Program Studi ini akan belajar tentang ilmu keteknikan dasar dan beberapa matakuliah lanjutan seperti Sistem Mikroprosesor, kendali otomatis, CNC, Pneumatik dan Hidrolik, Robotika, otomasi industri, dan kendali cerdas. Tujuan dari ilmu mekatronika ini adalah menghasilkan suatu produk otomasi yang cerdas dengan kinerja yang optimal dan efisien.',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
                           fontWeight: FontWeight.w400,
