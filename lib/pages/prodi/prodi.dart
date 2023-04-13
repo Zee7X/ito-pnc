@@ -734,6 +734,11 @@ class _ProdiTLState extends State<ProdiTL> {
   }
 }
 
+// Menambahkan Prodi Lain Yang Termasuk Kedalam Jurusan
+//1. Copas Source Code Dibawah Ini
+//2. Letakan Di Akhir Kurung Kurawal
+//3. Edit Setiap Text Yang Di Butuhkan
+
 //TRM
 class ProdiTRM extends StatefulWidget {
   const ProdiTRM({super.key});
@@ -789,6 +794,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                 color: Colors.white,
               ),
               child: FlexibleSpaceBar(
+                //Image Banner
                 background: Image.asset(
                   'assets/detail/meka4.jpg',
                   fit: BoxFit.cover,
@@ -805,6 +811,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const TextPoppinsW(
+                        //Nama Prodi
                         colorw: Color(0XFF5E6A81),
                         text: 'Prodi D4 Teknologi Rekayasa Mekatronika',
                         fSize: 20,
@@ -812,6 +819,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                       ),
                       const TextPoppinsW(
                         colorw: Colors.black45,
+                        //Name Prodi
                         text: 'D4 Mechatronic Engineering Technology',
                         fSize: 14,
                         fStyle: FontStyle.italic,
@@ -819,6 +827,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                       ),
                       const SizedBox(height: 10),
                       Text(
+                        //Deskripsi Prodi
                         'Program studi teknologi rekayasa mekatronika hadir di saat persaingan era globalisasi dan revolusi industri 4.0. Mekatronika merupakan ilmu yang mengkombinasikan secara sinergis rekayasa mekanika, elektronika, dan kontrol. Pada awal perkembangannya, mekatronika hanya mencakup unsur mekanika dan elektronika saja. Dengan ditemukannya mikroprosesor pada tahun 1980an, keilmuan mekatronika menjadi lebih maju dan berkembang. Mekatronika kemudian didukung oleh disiplin ilmu lain diantaranya: embedded system yang memberikan nuansa hardware programming yang menghubungkan mekanik dan elektronik, juga control system yang memberikan kecerdasan buatan kepada sistem tersebut.\nProdi STTRM mempelajari mengenai beberapa cabang ilmu keteknikan, seperti teknik mesin/mekanik, teknik kendali, teknik elektro, dan ilmu komputasi (computer science, software, and hardware). Mahasiswa Program Studi ini akan belajar tentang ilmu keteknikan dasar dan beberapa matakuliah lanjutan seperti Sistem Mikroprosesor, kendali otomatis, CNC, Pneumatik dan Hidrolik, Robotika, otomasi industri, dan kendali cerdas. Tujuan dari ilmu mekatronika ini adalah menghasilkan suatu produk otomasi yang cerdas dengan kinerja yang optimal dan efisien.',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
@@ -838,6 +847,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                       ),
                       const SizedBox(height: 5),
                       Text(
+                        //Kompetensi Lulusan
                         'Setiap lulusan Prodi D4 Teknologi Reakyasa Mekatronika memiliki kompetensi : \n\n1.	Mampu merancang dan membangun mesin otomatis dengan menggabungkan perangkat mekanik, sistem kontrol dan elektronik\n 2.	Mampu merancang dan membangun program untuk pendukung otomasi industri, robotika dan perangkat mekatronika lainnya dengan presisi tinggi \n3.	Mampu melakukan pemeliharaan sistem otomasi industri, mekatronika dan robotika \n4.	Mampu berwirausaha dalam bidang mekatronika dan robotika serta otomasi industri',
                         style: GoogleFonts.poppins(
                           fontSize: 12,
@@ -859,6 +869,7 @@ class _ProdiTRMState extends State<ProdiTRM> {
                       ),
                       const SizedBox(height: 5),
                       Text(
+                        //Peluang Kerja Lulusan
                         '1. Project Manager / Supervisor / Engineer. \n2. Project Consultant / Designer / Developer. \n3. Researcher / Instructor. \n4. Technopreneur.',
                         style: GoogleFonts.poppins(
                           fontSize: 12,

@@ -45,6 +45,7 @@ class _OnBoardingScreen1State extends State<OnBoardingScreen1> {
             width: widget.size.width,
             decoration: const BoxDecoration(
               image: DecorationImage(
+                //Image Onboard 1
                 image: AssetImage('assets/images/onboard/images1.png'),
                 fit: BoxFit.fitWidth,
               ),
@@ -144,6 +145,7 @@ class OnBoarding2 extends StatelessWidget {
               height: size.height / 2.4,
               // width: size.width,
               image: const AssetImage(
+                //Image Onboard 2
                 'assets/images/onboard/onboard2.png',
               ),
             ),

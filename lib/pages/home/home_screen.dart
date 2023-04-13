@@ -22,6 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    //Nomer Contact Person
     final Uri whatsapp = Uri.parse('https://wa.me/+6281128041000');
     final size = MediaQuery.of(context).size;
     return Scaffold(
@@ -35,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
               InkWell(
                 onTap: () async {
                   if (current == 0) {
+                    //URL Banner Home 1
                     var url = Uri.parse("https://pmb.pnc.ac.id/mandiri/");
                     if (await canLaunchUrl(url)) {
                       await launchUrl(
@@ -45,6 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       throw "Could not launch $url";
                     }
                   } else if (current == 1) {
+                    //URL Banner Home 2
                     var url = Uri.parse("https://pmb.pnc.ac.id/snbt/");
                     if (await canLaunchUrl(url)) {
                       await launchUrl(
@@ -55,6 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       throw "Could not launch $url";
                     }
                   } else if (current == 2) {
+                    //URL Banner Home 3
                     var url = Uri.parse("https://pmb.pnc.ac.id/snbp/");
                     if (await canLaunchUrl(url)) {
                       await launchUrl(
@@ -77,6 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           current = index;
                         });
                       }),
+                  //Mengganti Gambar Pada File imglist.dart di folder utils>const.
                   items: imgList
                       .map((item) => ClipRRect(
                           borderRadius:

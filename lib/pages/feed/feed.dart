@@ -21,6 +21,7 @@ class _NewsFeedState extends State<NewsFeed> {
   final Xml2Json xml2json = Xml2Json();
   List topnewsFeed = [];
   Future newsFeed() async {
+    //Rss Berita Dari PNC
     final url = Uri.parse('https://rss.app/feeds/Tn3gbqyTH3hPwwiK.xml');
     final response = await http.get(url);
     xml2json.parse(response.body.toString());
