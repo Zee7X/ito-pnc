@@ -145,17 +145,19 @@ class GridAbout extends StatelessWidget {
       ),
       child: Padding(
         padding: EdgeInsets.only(
-          top: size.height / 6,
+          top: size.height / 6.5,
         ),
-        child: Text(
-          overflow: TextOverflow.ellipsis,
-          textAlign: TextAlign.center,
-          text,
-          maxLines: 2,
-          style: GoogleFonts.dmSans(
-            fontSize: 14,
-            fontWeight: FontWeight.w700,
-            color: const Color(0XFF000000),
+        child: Center(
+          child: Text(
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+            text,
+            maxLines: 2,
+            style: GoogleFonts.dmSans(
+              fontSize: 14,
+              fontWeight: FontWeight.w700,
+              color: const Color(0XFF000000),
+            ),
           ),
         ),
       ),

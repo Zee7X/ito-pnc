@@ -72,6 +72,8 @@ class GridProdi extends StatelessWidget {
                 ),
                 child: Center(
                   child: Text(
+                    overflow: TextOverflow.ellipsis,
+                    textAlign: TextAlign.center,
                     dataSource![index].title,
                     maxLines: 2,
                     style: GoogleFonts.dmSans(
