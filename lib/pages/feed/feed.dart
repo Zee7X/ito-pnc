@@ -99,15 +99,10 @@ class _NewsFeedState extends State<NewsFeed> {
                               child: GestureDetector(
                                 onTap: () async {
                                   Uri uri = Uri.parse(newsLink);
-                                  try {
-                                    (await canLaunchUrl(uri))
-                                        ? launchUrl(uri,
-                                            mode:
-                                                LaunchMode.externalApplication)
-                                        : debugPrint('tidak berhasil');
-                                  } catch (e) {
-                                    debugPrint('error');
-                                  }
+                                  launchUrl(
+                                    uri,
+                                    mode: LaunchMode.externalApplication,
+                                  );
                                 },
                                 child: SizedBox(
                                   child: Row(

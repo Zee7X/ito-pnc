@@ -24,6 +24,9 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     //Nomer Contact Person
     final Uri whatsapp = Uri.parse('https://wa.me/+6281128041000');
+    final Uri mandiri = Uri.parse('https://pmb.pnc.ac.id/mandiri/');
+    final Uri snbt = Uri.parse('https://pmb.pnc.ac.id/snbt/');
+    final Uri snbp = Uri.parse('https://pmb.pnc.ac.id/snbp/');
     final size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Colors.white,
@@ -37,37 +40,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 onTap: () async {
                   if (current == 0) {
                     //URL Banner Home 1
-                    var url = Uri.parse("https://pmb.pnc.ac.id/mandiri/");
-                    if (await canLaunchUrl(url)) {
-                      await launchUrl(
-                        url,
-                        mode: LaunchMode.externalApplication,
-                      );
-                    } else {
-                      throw "Could not launch $url";
-                    }
+                    launchUrl(
+                      mandiri,
+                      mode: LaunchMode.externalApplication,
+                    );
                   } else if (current == 1) {
                     //URL Banner Home 2
-                    var url = Uri.parse("https://pmb.pnc.ac.id/snbt/");
-                    if (await canLaunchUrl(url)) {
-                      await launchUrl(
-                        url,
-                        mode: LaunchMode.externalApplication,
-                      );
-                    } else {
-                      throw "Could not launch $url";
-                    }
+                    launchUrl(
+                      snbt,
+                      mode: LaunchMode.externalApplication,
+                    );
                   } else if (current == 2) {
                     //URL Banner Home 3
-                    var url = Uri.parse("https://pmb.pnc.ac.id/snbp/");
-                    if (await canLaunchUrl(url)) {
-                      await launchUrl(
-                        url,
-                        mode: LaunchMode.externalApplication,
-                      );
-                    } else {
-                      throw "Could not launch $url";
-                    }
+                    launchUrl(
+                      snbp,
+                      mode: LaunchMode.externalApplication,
+                    );
                   }
                 },
                 child: CarouselSlider(

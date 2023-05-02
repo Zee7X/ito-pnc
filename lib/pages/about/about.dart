@@ -10,6 +10,13 @@ class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
+    final Uri iom = Uri.parse(
+        'https://pnc.ac.id/download/beasiswa-ikatan-orang-tua-mahasiswa-iom/');
+    final Uri ppa = Uri.parse(
+        'https://pnc.ac.id/download/beasiswa-peningkatan-prestasi-akademik-ppa/');
+    final Uri kip = Uri.parse('https://kip-kuliah.kemdikbud.go.id/');
+    final Uri pertamina =
+        Uri.parse('https://beasiswa.pertaminafoundation.org/');
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -30,16 +37,10 @@ class About extends StatelessWidget {
         children: <Widget>[
           InkWell(
             onTap: () async {
-              var url = Uri.parse(
-                  "https://pnc.ac.id/download/beasiswa-ikatan-orang-tua-mahasiswa-iom/");
-              if (await canLaunchUrl(url)) {
-                await launchUrl(
-                  url,
-                  mode: LaunchMode.externalApplication,
-                );
-              } else {
-                throw "Could not launch $url";
-              }
+              launchUrl(
+                iom,
+                mode: LaunchMode.externalApplication,
+              );
             },
             child: GridAbout(
               size: size,
@@ -49,16 +50,10 @@ class About extends StatelessWidget {
           ),
           InkWell(
             onTap: () async {
-              var url = Uri.parse(
-                  "https://pnc.ac.id/download/beasiswa-peningkatan-prestasi-akademik-ppa/");
-              if (await canLaunchUrl(url)) {
-                await launchUrl(
-                  url,
-                  mode: LaunchMode.externalApplication,
-                );
-              } else {
-                throw "Could not launch $url";
-              }
+              launchUrl(
+                ppa,
+                mode: LaunchMode.externalApplication,
+              );
             },
             child: GridAbout(
               size: size,
@@ -68,15 +63,10 @@ class About extends StatelessWidget {
           ),
           InkWell(
             onTap: () async {
-              var url = Uri.parse("https://kip-kuliah.kemdikbud.go.id/");
-              if (await canLaunchUrl(url)) {
-                await launchUrl(
-                  url,
-                  mode: LaunchMode.externalApplication,
-                );
-              } else {
-                throw "Could not launch $url";
-              }
+              launchUrl(
+                kip,
+                mode: LaunchMode.externalApplication,
+              );
             },
             child: GridAbout(
               size: size,
@@ -86,15 +76,10 @@ class About extends StatelessWidget {
           ),
           InkWell(
             onTap: () async {
-              var url = Uri.parse("https://beasiswa.pertaminafoundation.org/");
-              if (await canLaunchUrl(url)) {
-                await launchUrl(
-                  url,
-                  mode: LaunchMode.externalApplication,
-                );
-              } else {
-                throw "Could not launch $url";
-              }
+              launchUrl(
+                pertamina,
+                mode: LaunchMode.externalApplication,
+              );
             },
             child: GridAbout(
               size: size,
